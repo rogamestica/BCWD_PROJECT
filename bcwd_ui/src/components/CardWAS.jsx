@@ -3,9 +3,14 @@ import CardWAStxt from './CardWAStxt';
 import ButtonWAS from './ButtonWAS';
 
 const CardWAS = (props) => {
+
     const title = props.title;
     const descript = props.descript;
     const my_link = props.my_link;
+    const biclass = props.biclass;
+    const d1 = props.d1;
+    const d2 = props.d2;
+
     return (
 
         <div class="card mycard">
@@ -13,9 +18,9 @@ const CardWAS = (props) => {
                 <div class="container text-left">
                     <div class="row row-cols-12 row-cols-lg-12 g-2 g-lg-12">
                         <div class="col-12 py-3 m-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="white" class="bi bi-calculator" viewBox="0 0 16 16">
-                                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
-                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="white" class={biclass} viewBox="0 0 16 16">
+                                <path d={d1} />
+                                <path d={d2} />
                             </svg>
                         </div>
                         <div class="col-12 py-3 m-1">
