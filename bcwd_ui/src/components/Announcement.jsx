@@ -7,8 +7,8 @@ import Paragraph from './Paragraph';
 const Announcement = () => {
     const descrip = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.";
     return (
-        <div className="container m-5 px-4">
-            <div className="row align-items-start">
+        <div className="container d-flex justify-content-center">
+            <div className="row p-5">
                 <div class="col-4">
                     <div className='container p-4'>
                         <Header1 header="LATEST NEWS" />
