@@ -40,19 +40,3 @@ const ConnectWithUs = () => {
 }
 
 export default ConnectWithUs;
-
-/**
- * <div className="container d-flex justify-content-center m-5">
-            <img src={connection} />
-            <div className='col-12 pt-3'>
-
-                <div className='col-6'>
-                    <Header1 header="CONNECT WITH US" />
-                </div>
-                <img className='m-2' src={facebook} alt="fb" />
-                <img className='m-2' src={twitter} alt="tweet" />
-                <img className='m-2' src={youtube} alt="yt" />
-                <img className='m-2' src={linkedin} alt="li" />
-            </div>
-        </div>
- */

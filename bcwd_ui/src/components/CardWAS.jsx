@@ -13,21 +13,21 @@ const CardWAS = (props) => {
 
     return (
 
-        <div class="card mycard">
-            <div class="card-body">
-                <div class="container text-left">
-                    <div class="row row-cols-12 row-cols-lg-12 g-2 g-lg-12">
-                        <div class="col-12 py-3 m-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="white" class={biclass} viewBox="0 0 16 16">
+        <div className="card mycard">
+            <div className="card-body">
+                <div className="container text-left">
+                    <div className="row row-cols-12 row-cols-lg-12 g-2 g-lg-12">
+                        <div className="col-12 py-3 m-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="white" className={biclass} viewBox="0 0 16 16">
                                 <path d={d1} />
                                 <path d={d2} />
                             </svg>
                         </div>
-                        <div class="col-12 py-3 m-1">
+                        <div className="col-12 py-3 m-1">
                             <strong><CardWAStxt descript={title} /></strong>
                             <CardWAStxt descript={descript} />
                         </div>
-                        <div class="col-12 py-3 m-1">
+                        <div className="col-12 py-3 m-1">
                             <ButtonWAS mylink={my_link} />
                         </div>
 

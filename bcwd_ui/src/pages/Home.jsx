@@ -4,6 +4,8 @@ import Announcement from "../components/Announcement";
 import Header3 from "../components/Header3";
 import CardWAS from "../components/CardWAS";
 import ConnectWithUs from '../components/ConnectWithUs';
+import MyFooter from '../components/MyFooter';
+
 const Home = () => {
 
 
@@ -35,6 +37,7 @@ const Home = () => {
       </div>
 
       <ConnectWithUs />
+      <MyFooter />
 
     </div>
   );
