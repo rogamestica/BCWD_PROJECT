@@ -1,0 +1,66 @@
+/* #connect-us {
+    background-image: url('../svg/connection.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150vh;
+    height: 85vh;
+} */
+
+/* #socialacc {
+
+    width: 200vh;
+    height: 150vh;
+    background-image: url('../svg/connection.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+/* #connect-us {
+    background-image: url("../svg/connection.svg");
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+#connect-us span {
+    font-family: 'Caveat', cursive;
+} */
+
+.connection {
+    width: 120vh;
+    height: 100%;
+    /* padding: 10vh; */
+
+}
+
+#about_us {
+    /* background-image: url("/static/images/banner/769.png"); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.details_AU {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    position: relative;
+    top: 345px;
+    left: 640px;
+
+}
