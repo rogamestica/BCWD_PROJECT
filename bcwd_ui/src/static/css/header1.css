@@ -20,11 +20,19 @@
     border-left: 4px solid #3f3e3e;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('../roboto-font/Roboto-Bold.ttf') format('truetype');
+}
+
+/* body {
+    font-family: 'roboto', sans-serif;
+} */
 
 
 .myheader {
-    font-size: 24px;
-    font-weight: bolder;
+    font-size: 32px;
+    font-weight: bold;
     color: #3f3e3e;
     text-align: left;
     font-family: 'Roboto';

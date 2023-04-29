@@ -4,7 +4,7 @@ const Paragraph = (props) => {
     const description = props.descript;
     return (
 
-        <p className="descript">{description}</p>
+        <p className="text-break descript">{description}</p>
 
     );
 }

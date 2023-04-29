@@ -8,18 +8,18 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../roboto-font/Roboto-Regular.ttf') format('truetype');
+  font-family: 'Roboto Light';
+  src: url('../roboto-font/Roboto-Light.ttf') format('truetype');
 }
 
-body {
-  font-family: 'roboto', sans-serif;
-}
+/* body {
+  font-family: 'Roboto Black', sans-serif;
+} */
 
 .my-link {
   color: #3f3e3e;
   text-decoration: none;
-  font-family: 'roboto', sans-serif;
+  font-family: 'Roboto Light', sans-serif;
 }
 
 .dropdown {

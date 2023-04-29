@@ -1,8 +1,10 @@
 import '../static/css/buttonwas.css';
 
 const ButtonWAS = (props) => {
+    const mylink = props.mylink;
+    const name = props.name;
     return (
-        <a className="btn-sn" href={props.mylink}>click me</a>
+        <a className="btn-sn" href={mylink}>{name}</a>
     );
 }
 

@@ -26,28 +26,28 @@ const Navigation = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav " />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end my-link">
                         <Nav className="mr-auto ">
-                            <Nav.Link as="div"><Link to="/" className="my-link" >Home</Link></Nav.Link>
-                            <NavDropdown title="News & Advisories" id="basic-nav-dropdown" className="my-nav-dropdown" >
+                            <Nav.Link as="div"><Link to="/" className="my-link px-3" >Home</Link></Nav.Link>
+                            <NavDropdown title="News & Advisories" id="basic-nav-dropdown" className="my-nav-dropdown px-1" >
                                 <NavDropdown.Item as="div"><Link to="/bcwdnews" className="my-link" >BCWD News</Link></NavDropdown.Item>
                                 <NavDropdown.Item as="div"><Link to="/serviceadvisories" className="my-link" >Service Advisories</Link></NavDropdown.Item>
                                 <NavDropdown.Item as="div"><Link to="/waterqualityresult" className="my-link" >Water Quality Result</Link></NavDropdown.Item>
                                 <NavDropdown.Item as="div"><Link to="/donorupdates" className="my-link" >Donor Updates</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Bills & Payments" id="basic-nav-dropdown">
+                            <NavDropdown title="Bills & Payments" id="basic-nav-dropdown" className="my-nav-dropdown px-1">
                                 <NavDropdown.Item as="div"><Link to="/billspaymentpartners" className="my-link" >Bills Payment Partners</Link></NavDropdown.Item>
                                 <NavDropdown.Item as="div"><Link to="/billcalculator" className="my-link" >Bill Calculator</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Company" id="basic-nav-dropdown">
+                            <NavDropdown title="Company" id="basic-nav-dropdown" className="my-nav-dropdown px-1">
                                 <NavDropdown.Item as="div"><Link to="/aboutus" className="my-link" >About Us</Link></NavDropdown.Item>
                                 <NavDropdown.Item as="div"><Link to="/bidding" className="my-link" >Bidding</Link></NavDropdown.Item>
                                 <NavDropdown.Item as="div"><Link to="/transparency" className="my-link" >Transparency</Link></NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Contact Us" id="basic-nav-dropdown">
+                            <NavDropdown title="Contact Us" id="basic-nav-dropdown" className="my-nav-dropdown px-1">
                                 <NavDropdown.Item as="div"><Link to="/contactus" className="my-link" >Contact Us</Link></NavDropdown.Item>
                                 <NavDropdown.Item as="div"><Link to="/faqs" className="my-link" >Faqs</Link></NavDropdown.Item>
                             </NavDropdown>
 
-                            <MyButton name="My Water Bill" />
+                            <MyButton name="My Water Bill" className="px-5" />
 
                         </Nav>
                     </Navbar.Collapse>

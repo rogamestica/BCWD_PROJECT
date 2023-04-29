@@ -11,7 +11,7 @@ const MyFooter = () => {
             {/* Grid container */}
             <div className="container p-4">
                 {/* Grid row */}
-                <div className="row mt-4">
+                <div className="row m-4">
                     {/* Grid column */}
                     <div className="col-lg-6 col-md-12 mb-5 mb-md-0">
                         <Navbar.Brand href="/">
@@ -81,7 +81,7 @@ const MyFooter = () => {
                     {/* <!--Grid column--> */}
                     <div className="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4">
                         <div className='container'>
-                            <FootHeader header="About BCWD" />
+                            <FootHeader header="ABOUT BCWD" />
                             <div className='row py-2'>
                                 <div className='col-lg-8'>
                                     <p className='footer'>
@@ -102,22 +102,18 @@ const MyFooter = () => {
                 </div>
 
             </div>
-            <div className="text-center p-3" style={{ backgroundColor: "#5E5B5B" }}>
-                <div className="container">
-                    <div className='row'>
-                        <div className='col-lg-2'>
-                            <p className='footer-last'>
-                                Terms and Conditions
-                            </p>
-                        </div>
-                        <div className='col-lg-2'>
-                            <p className='footer-last'>
-                                Privacy Policy
-                            </p>
+            <footer className="text-center text-white p-4" style={{ backgroundColor: "#5e5b5b" }}>
+                <div className="container px-4 d-flex justify-content-start">
+                    <div className='row mx-4'>
+                        <div className='col-lg-12 px-4'>
+                            <a className='text-white link-tag' href="/terms">Terms and Conditions</a>
+                            &nbsp;  &nbsp;  &nbsp;
+                            <a className='text-white link-tag' href="/privacy">Privacy Policy</a>
                         </div>
                     </div>
                 </div>
-            </div>
+            </footer>
+
         </footer>
 
 

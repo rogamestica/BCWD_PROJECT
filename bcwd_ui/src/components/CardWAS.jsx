@@ -7,6 +7,7 @@ const CardWAS = (props) => {
     const title = props.title;
     const descript = props.descript;
     const my_link = props.my_link;
+    const myname = props.name;
     const biclass = props.biclass;
     const d1 = props.d1;
     const d2 = props.d2;
@@ -28,7 +29,7 @@ const CardWAS = (props) => {
                             <CardWAStxt descript={descript} />
                         </div>
                         <div className="col-12 py-3 m-1">
-                            <ButtonWAS mylink={my_link} />
+                            <ButtonWAS mylink={my_link} name={myname} />
                         </div>
 
                     </div>
