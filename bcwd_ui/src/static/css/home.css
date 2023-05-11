@@ -1,3 +1,90 @@
 #home {
     overflow-x: hidden;
 }
+
+.container.my-class{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .row.custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container.my-class {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container.my-class {
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container.my-class {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+  }
+      
+
+@media (max-width: 250px) {
+    .container.my-class {
+      margin-right: 0;
+      margin-left: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .connect-with-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connect-with-us h3 {
+  margin-bottom: 10px;
+}
+
+.connect-with-us .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-with-us .icons a {
+  margin: 0 10px;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .connect-with-us {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .connect-with-us .icons {
+    margin-top: 10px;
+  }
+  
+  .connect-with-us .icons a {
+    margin: 0 5px;
+  }
+}

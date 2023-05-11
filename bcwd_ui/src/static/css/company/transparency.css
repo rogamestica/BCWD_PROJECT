@@ -1,0 +1,10 @@
+.symbol{
+    font: 1em sans-serif black;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.symbol a{
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.container.mytext{
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1877c5;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.container.mytext2{
+    background-color: white;
+    
+}
+
+.header{
+    text-align: left;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .container.mytext{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 576px) {
+    .container.mytext{
+        font-size: small;
+    }
+    .header{
+        font-size: medium;
+    }
+}

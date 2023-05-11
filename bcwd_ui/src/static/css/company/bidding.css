@@ -1,0 +1,32 @@
+.category-nav {
+    position: fixed;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .category-nav li {
+    position: fixed;
+    margin: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  
+  .category-nav a {
+    position: fixed;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0px;
+    border-radius: 0px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-nav a:hover {
+    background-color: #ddd;
+  }
+  

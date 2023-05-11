@@ -28,7 +28,7 @@ const ConnectWithUs = () => {
             <div className="container  d-flex justify-content-center">
                 <div className="row">
                     <div className="col-md-6 col-lg-12">
-                        <img className="connection" src={connection} alt='hey' />
+                        <img className="img-fluid connection" src={connection} alt='hey' />
                     </div>
                 </div>
 

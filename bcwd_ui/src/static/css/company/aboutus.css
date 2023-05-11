@@ -1,0 +1,79 @@
+body {
+    background-color: #ffffff; /* sets the background color to blue */
+    max-height: 100vh; /* limits the height of the page to the viewport height */
+    overflow-y: auto; /* adds a scrollbar if the content exceeds the viewport height */
+  }
+  
+  .container {
+    padding-top: 50px; /* adds some padding to the top of the container to prevent content from getting cut off */
+  }
+
+  .container.mytext {
+    border: 1px solid blue;
+    margin: 10px;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  .container.mytext2 {
+    margin: 10px;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(250, 250, 250);
+  }
+
+  .container.background{
+    background-color: #0768f8;  
+    width: 100%;
+  }
+  
+  .container.mytext3 {
+    border: 1px solid #118DF0;
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    background-color: #118DF0;
+    font-size: large;
+  }
+
+  .head{
+    align-items: center;
+    text-align: center;
+    color: rgb(7, 7, 7);
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* Styles for screens smaller than 768px */
+    .container.mytext {
+      height: 200px;
+      margin: 5px;
+    }
+    
+    .container.mytext2 {
+      height: 200px;
+      margin: 5px;
+    }
+    
+    .container.mytext3 {
+      height: 30px;
+      margin: 5px;
+      font-size: medium;
+    }
+  }

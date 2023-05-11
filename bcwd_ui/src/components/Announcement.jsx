@@ -25,6 +25,7 @@ const Announcement = () => {
                             <img className="myimage" src={noimg} alt="hey" />
                         </div>
                     </div>
+                    
                     <div className="col-4 px-4">
                         <div className="row pt-1">
                             <div className='container p-4'>
@@ -35,7 +36,7 @@ const Announcement = () => {
                             <div className="col-4">
                                 <MyButton name="Emergency" />
                             </div>
-                            <div className="col-8">
+                            <div className="col-8 d-flex justify-content-right">
                                 <Paragraph descript="Aug-29-Aug-30 Quezon City, Lamesa Pumping Station" />
                             </div>
                         </div>

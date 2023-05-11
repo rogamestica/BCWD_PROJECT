@@ -1,6 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import logo3 from '../static/img/logo3.png';
 import '../static/css/footer.css';
+import { Link } from 'react-router-dom';
 
 //component
 import FootHeader from './FootHeader';
@@ -55,22 +56,13 @@ const MyFooter = () => {
                             <FootHeader header="QUICK LINKS" />
                             <div className='row py-2'>
                                 <div className='col-lg-8'>
-                                    <p className='footer'>
-                                        Service Advisories
-                                    </p>
-
-                                    <p className='footer'>
-                                        How to your Water Bill
-                                    </p>
-                                    <p className='footer'>
-                                        Bills Payment Partners
-                                    </p>
-                                    <p className='footer'>
-                                        FAQs
-                                    </p>
-                                    <p className='footer'>
-                                        Contact Us
-                                    </p>
+                                    
+                                     <Link className='footer' to="serviceadvisories"><p>Service Advisories</p></Link>
+                                     <Link className='footer' to="."><p>How to your Water Bill</p></Link>
+                                     <Link className='footer' to="billspaymentpartners"><p>Bills Payment Partners</p></Link>
+                                     <Link className='footer' to="faqs"><p>FAQs</p></Link>
+                                     <Link className='footer' to="contactus"><p>Contact Us</p></Link>
+                                    
                                 </div>
                             </div>
                         </div>
